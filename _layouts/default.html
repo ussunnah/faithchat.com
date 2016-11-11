@@ -1,20 +1,28 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+	{% include head.html %}
 
-  <body>
+	<body>
+		{% include preloader.html %}
+		{% include header.html %}
+		{% include login.html %}
+		{% include menu.html %}
 
-    {% include header.html %}
+		<div class="page-content">
+			<div class="wrapper">
+				{{ content }}
+			</div>
+		</div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+		{% include javascript.html %}
+		{% include subscribe.html %}
+		{% include footer.html %}
+		{% include livechat.html %}
 
-    {% include footer.html %}
-
-  </body>
+	</body>
 
 </html>
