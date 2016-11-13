@@ -1,23 +1,31 @@
 ---
-layout: default
+layout: page
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section id="converts">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="title-area">
+					<h1 class="title">{{ page.title }}</h2>
+					<span class="line"></span>
+					{% unless page.content == '' %}
+						<p>{{ page.content }}</p>
+					{% endunless %}
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="converts-list">
+				{% for post in site.categories.converts %}
+					<div class="col-md-2 col-sm-4" style="text-align: center; margin: 10px 0; padding: 10px 0;">
+						<img src="{{ post.photo }}" height="128px" style="border-radius: 50%"/>
+					</div>
+					<div class="col-md-4 col-sm-8" style="margin: 10px 0; padding: 10px 0;">
+						<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<h3>Description here...</h3>
+					</div>
+				{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

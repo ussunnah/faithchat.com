@@ -1,9 +1,10 @@
 ---
 layout: convert
-title:  "Ismail Norris"
-photo: "/images/people/ismail-norris.jpg"
-date:   2016-11-01 12:00:00
-categories: convert
+title: Ismail Norris
+photo: /images/people/ismail-norris.jpg
+date: 2016-11-01 12:00:00
+categories: converts
+tags: [white, ex-christian]
 ---
 My name is Ismail. I am Romanian and Hungarian and I live in California. I became a Muslim almost 5 years ago at the age of 17. For me it all started while playing basketball, where I met someone who is still one of my best friends to this day. He gave me dawah and we argued about religion back and forth for about 4 years. I was a Christian and he was a Muslim. He asked me questions I didn’t really have answers to, eventually all these questions started turning into doubts about Christianity. I always had a respect for Islam since I met him, and I actually thought it was very cool to see the Muslims take a break from playing and pray salah. Eventually I prayed and asked God, “If Christianity is the right religion, make all my friends Christian, if Islam is the right religion, then make me a Muslim.” About a week later I took my shahada at the very basketball court where it all started Alhamdulillah it was the best decision I ever made in my life.
 

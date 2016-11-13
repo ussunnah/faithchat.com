@@ -1,9 +1,10 @@
 ---
 layout: convert
-title:  "Ali Camarata"
-photo: "/images/people/ali-camarata.jpg"
-date:   2016-11-01 12:00:00
-categories: convert
+title: Ali Camarata
+photo: /images/people/ali-camarata.jpg
+date: 2016-11-01 12:00:00
+categories: converts
+tags: [white, ex-christian]
 ---
 Growing up in America there are subtle and inherited aspects of Christianity in society but religion is not a major factor in many people’s daily life. Since I was very young my grandmother would bring me to church on the weekends and there would be the regular Bible studies as well as summer camps. As I got older I was less involved in church and spent more time with school, sports and so on. I was always in advanced math and sciences courses throughout my school year and had a high interest in them.
 

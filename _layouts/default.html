@@ -14,14 +14,16 @@ layout: compress
 
 		<div class="page-content">
 			<div class="wrapper">
-				{{ content }}
+				<div class="container">
+					{{ content }}
+				</div>
 			</div>
 		</div>
 
-		{% include javascript.html %}
 		{% include subscribe.html %}
 		{% include footer.html %}
 		{% include livechat.html %}
+		{% include javascript.html %}
 
 	</body>
 

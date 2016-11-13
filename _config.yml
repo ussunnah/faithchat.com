@@ -6,7 +6,7 @@ description: FaithChat is dedicated to dialogue and education about God's truth 
 url: "https://www.faithchat.com"
 baseurl: ""
 permalink: /:categories/:title
-permalink: /404.html
+#permalink: /404.html
 
 # Organization settings
 facebook_username: faithchatcom
